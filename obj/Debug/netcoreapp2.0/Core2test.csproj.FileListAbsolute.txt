@@ -1,0 +1,10 @@
+/Users/Newton/Documents/code/dotnet/Core2test/bin/Debug/netcoreapp2.0/Core2test.deps.json
+/Users/Newton/Documents/code/dotnet/Core2test/bin/Debug/netcoreapp2.0/Core2test.runtimeconfig.json
+/Users/Newton/Documents/code/dotnet/Core2test/bin/Debug/netcoreapp2.0/Core2test.runtimeconfig.dev.json
+/Users/Newton/Documents/code/dotnet/Core2test/bin/Debug/netcoreapp2.0/Core2test.dll
+/Users/Newton/Documents/code/dotnet/Core2test/bin/Debug/netcoreapp2.0/Core2test.pdb
+/Users/Newton/Documents/code/dotnet/Core2test/obj/Debug/netcoreapp2.0/Core2test.csproj.CoreCompileInputs.cache
+/Users/Newton/Documents/code/dotnet/Core2test/obj/Debug/netcoreapp2.0/Core2test.AssemblyInfoInputs.cache
+/Users/Newton/Documents/code/dotnet/Core2test/obj/Debug/netcoreapp2.0/Core2test.AssemblyInfo.cs
+/Users/Newton/Documents/code/dotnet/Core2test/obj/Debug/netcoreapp2.0/Core2test.dll
+/Users/Newton/Documents/code/dotnet/Core2test/obj/Debug/netcoreapp2.0/Core2test.pdb

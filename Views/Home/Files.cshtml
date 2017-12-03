@@ -1,0 +1,36 @@
+@using Microsoft.Extensions.FileProviders
+@model IFileProvider
+
+<br>
+<br>
+<br>
+<br>
+<p>This page is used to list all the files in the ContentRoot using the IFileProvider interface:=</p>
+<h2>Folder Contents</h2>
+
+<ul>
+    @{var dirContents = Model.GetDirectoryContents("");}
+    @foreach (IFileInfo item in dirContents)
+    {
+        @if(item.IsDirectory)
+        {
+            <li><strong>@item.Name</strong></li>
+            var subContent = Model.GetDirectoryContents(item.PhysicalPath);
+            @foreach(IFileInfo subItem in subContent)
+            {
+                if(subItem.IsDirectory)
+                {
+                    <li><strong>@subItem.Name</strong></li>
+                }
+                else
+                {
+                    <li style="margin-left: 40px">@subItem.Name - @subItem.Length bytes</li>
+                }
+            }
+        }
+        else
+        {
+            <li style="margin-left: 20px">@item.Name - @item.Length bytes</li>
+        }
+    }
+</ul>
